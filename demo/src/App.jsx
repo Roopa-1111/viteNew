@@ -1,7 +1,7 @@
 import React from "react"
 import "./App.css"
 import Form from "./Form"
-
+import MessageList from "./MessageList"
 function App() {
   return (
     <div className="app">
@@ -10,6 +10,7 @@ function App() {
         <div className="shape-2"></div>
         <Form />
       </div>
+    <MessageList />
     </div>
   )
 }
